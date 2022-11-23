@@ -41,7 +41,7 @@
             margin: 36px 0px 0px 0px;
             
         }
-
+        
         #contact {
             display: flex;
             justify-content: center;
@@ -74,17 +74,17 @@
             text-decoration: none;
             width: 333px;
             height: 3vw;
-            background-color: white;
             border: none;
             margin: 0px 0px 0px 0px;
             font-size: 1.5rem;
+            background:linear-gradient(to top right , #77b0f5 , rgb(90, 95, 231));
         }
         #send:hover{
             display: flex;
             justify-content: center;
             align-items: center;
             text-decoration: none;
-            background-color: wheat;
+            background:linear-gradient(to top right , #458de4 , rgb(53, 58, 219));
             width: 333px;
             height: 3vw;
             border: none;
