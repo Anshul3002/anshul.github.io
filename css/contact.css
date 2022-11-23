@@ -17,11 +17,11 @@
             display: flex;
             /* border: 4px solid black; */
             justify-content: center;
-            height: 60vh;
-            width: 35vw;
+            height: 393px;
+            width: 393px;
             padding: 0%;
             flex-shrink: 1;
-            background:linear-gradient(to top right , #face92 , white, #face92);
+            background:linear-gradient(to top right , #77b0f5 , rgb(90, 95, 231), #face92);
         }
         
         .contact-e {
@@ -30,6 +30,15 @@
             flex-shrink: 2;
             justify-content: center;
             margin: 9px 0px 0px 0px;
+            
+        }
+        .contact-e-button {
+
+            display: flex;
+            flex-shrink: 2;
+            justify-content: center;
+            text-decoration: none;
+            margin: 36px 0px 0px 0px;
             
         }
 
@@ -43,19 +52,19 @@
         #name {
             display: flex;
             justify-content: center;
-            width: 28vw;
+            width: 333px;
         }
         
         #email {
             display: flex;
             justify-content: center;
-            width: 28vw;
+            width: 333px;
         }
         
         #message textarea{
             display: flex;
             justify-content: center;
-            width: 28vw;
+            width: 333px;
             height: 11vh;
         }
         #send{
@@ -63,10 +72,11 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
-            width: 28vw;
+            width: 333px;
             height: 3vw;
             background-color: white;
             border: none;
+            margin: 0px 0px 0px 0px;
             font-size: 1.5rem;
         }
         #send:hover{
@@ -75,7 +85,7 @@
             align-items: center;
             text-decoration: none;
             background-color: wheat;
-            width: 28vw;
+            width: 333px;
             height: 3vw;
             border: none;
             font-size: calc(1.5rem + 1vw +1vh);
