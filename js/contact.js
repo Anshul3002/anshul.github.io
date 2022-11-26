@@ -7,7 +7,7 @@ const function1 = () => {
         let username = name.value
         let useremail = email.value
         let usermessage = message.value
-        ws.send(`username: ${username} \n useremail: ${useremail} \n usermessage: ${usermessage} \n `);
+        ws.send(`{username: '${username}', useremail: '${useremail}', usermessage: '${usermessage}'},null `);
     }
 ws.addEventListener("open", () => {
     button1.addEventListener("click", function1)
