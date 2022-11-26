@@ -1,2 +1,2 @@
-const info = [{username: 'anshul dhoundiyal', useremail: 'anshuldhoundiyal0@gmail.com', usermessage: 'hello I'm anshul dhoundiyal'},null ]
+const info = [null ]
 module.exports = info;
